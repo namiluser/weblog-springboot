@@ -1,0 +1,213 @@
+[TraceId: ] 2024-01-25 14:06:16.035 [main] INFO  com.luser.weblog.web.WeblogWebApplication - Starting WeblogWebApplication using Java 1.8.0_311 on Emily with PID 15528 (D:\codes\IdeaProjects\weblog-springboot\weblog-web\target\classes started by 29531 in D:\codes\IdeaProjects\weblog-springboot)
+[TraceId: ] 2024-01-25 14:06:16.037 [main] INFO  com.luser.weblog.web.WeblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-01-25 14:06:16.525 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-01-25 14:06:16.529 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-01-25 14:06:16.533 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-01-25 14:06:16.587 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-01-25 14:06:16.588 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 528 ms
+[TraceId: ] 2024-01-25 14:06:16.781 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-01-25 14:06:16.787 [main] INFO  com.luser.weblog.web.WeblogWebApplication - Started WeblogWebApplication in 0.992 seconds (JVM running for 1.571)
+[TraceId: ] 2024-01-25 14:06:41.919 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2024-01-25 14:06:41.919 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2024-01-25 14:06:41.919 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[TraceId: b9339326-3528-4b00-a528-5b2ebf787ffe] 2024-01-25 14:06:42.000 [http-nio-8080-exec-1] INFO  c.luser.weblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"admin","sex":1}, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: b9339326-3528-4b00-a528-5b2ebf787ffe] 2024-01-25 14:06:42.005 [http-nio-8080-exec-1] INFO  c.luser.weblog.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 12ms, 出参: {"username":"admin","sex":1} =================================== 
+[TraceId: 3175eaae-44e8-48df-863e-0dccc151238a] 2024-01-25 14:39:25.687 [http-nio-8080-exec-5] INFO  c.luser.weblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"","sex":null}, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: 3175eaae-44e8-48df-863e-0dccc151238a] 2024-01-25 14:39:25.688 [http-nio-8080-exec-5] INFO  c.luser.weblog.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 2ms, 出参: {"username":"","sex":null} =================================== 
+[TraceId: b26616e7-928e-4722-8a6a-6a13ca2e7d16] 2024-01-25 14:42:44.616 [http-nio-8080-exec-8] INFO  c.luser.weblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"","sex":null}, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: b26616e7-928e-4722-8a6a-6a13ca2e7d16] 2024-01-25 14:42:44.616 [http-nio-8080-exec-8] INFO  c.luser.weblog.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 0ms, 出参: {"username":"","sex":null} =================================== 
+[TraceId: ] 2024-01-25 14:42:59.577 [main] INFO  com.luser.weblog.web.WeblogWebApplication - Starting WeblogWebApplication using Java 1.8.0_311 on Emily with PID 24156 (D:\codes\IdeaProjects\weblog-springboot\weblog-web\target\classes started by 29531 in D:\codes\IdeaProjects\weblog-springboot)
+[TraceId: ] 2024-01-25 14:42:59.579 [main] INFO  com.luser.weblog.web.WeblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-01-25 14:43:00.106 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-01-25 14:43:00.111 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-01-25 14:43:00.111 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-01-25 14:43:00.166 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-01-25 14:43:00.166 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 562 ms
+[TraceId: ] 2024-01-25 14:43:00.420 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-01-25 14:43:00.425 [main] INFO  com.luser.weblog.web.WeblogWebApplication - Started WeblogWebApplication in 1.1 seconds (JVM running for 1.686)
+[TraceId: ] 2024-01-25 14:43:04.644 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2024-01-25 14:43:04.644 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2024-01-25 14:43:04.645 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[TraceId: 508a3d61-47f3-48a7-96df-6ab0d894a210] 2024-01-25 14:43:04.755 [http-nio-8080-exec-2] INFO  c.luser.weblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"","sex":null,"age":120,"email":"123124qq.com"}, org.springframework.validation.BeanPropertyBindingResult: 4 errors
+Field error in object 'user' on field 'email': rejected value [123124qq.com]; codes [Email.user.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@405b9802,.*]; default message [邮箱格式不正确]
+Field error in object 'user' on field 'username': rejected value []; codes [NotBlank.user.username,NotBlank.username,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.username,username]; arguments []; default message [username]]; default message [用户名不能为空]
+Field error in object 'user' on field 'age': rejected value [120]; codes [Max.user.age,Max.age,Max.java.lang.Integer,Max]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.age,age]; arguments []; default message [age],100]; default message [年龄必须小于或等于 100]
+Field error in object 'user' on field 'sex': rejected value [null]; codes [NotNull.user.sex,NotNull.sex,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.sex,sex]; arguments []; default message [sex]]; default message [性别不能为空], 请求类: TestController, 请求方法: test =================================== 
+[TraceId: 508a3d61-47f3-48a7-96df-6ab0d894a210] 2024-01-25 14:43:04.768 [http-nio-8080-exec-2] INFO  c.luser.weblog.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 23ms, 出参: {"headers":{},"body":"邮箱格式不正确, 用户名不能为空, 年龄必须小于或等于 100, 性别不能为空","statusCode":"BAD_REQUEST","statusCodeValue":400} =================================== 
+[TraceId: ] 2024-01-25 14:51:01.860 [main] INFO  com.luser.weblog.web.WeblogWebApplication - Starting WeblogWebApplication using Java 1.8.0_311 on Emily with PID 9288 (D:\codes\IdeaProjects\weblog-springboot\weblog-web\target\classes started by 29531 in D:\codes\IdeaProjects\weblog-springboot)
+[TraceId: ] 2024-01-25 14:51:01.861 [main] INFO  com.luser.weblog.web.WeblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-01-25 14:51:02.435 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-01-25 14:51:02.440 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-01-25 14:51:02.441 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-01-25 14:51:02.496 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-01-25 14:51:02.496 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 607 ms
+[TraceId: ] 2024-01-25 14:51:02.746 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-01-25 14:51:02.752 [main] INFO  com.luser.weblog.web.WeblogWebApplication - Started WeblogWebApplication in 1.13 seconds (JVM running for 1.761)
+[TraceId: ] 2024-01-25 14:51:13.303 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2024-01-25 14:51:13.303 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2024-01-25 14:51:13.304 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[TraceId: 42e4df11-287e-4c30-8af8-fc6b7ed7ec1c] 2024-01-25 14:51:13.655 [http-nio-8080-exec-2] INFO  c.luser.weblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"","sex":null,"age":120,"email":"123124qq.com"}, org.springframework.validation.BeanPropertyBindingResult: 4 errors
+Field error in object 'user' on field 'email': rejected value [123124qq.com]; codes [Email.user.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@1b85763b,.*]; default message [邮箱格式不正确]
+Field error in object 'user' on field 'sex': rejected value [null]; codes [NotNull.user.sex,NotNull.sex,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.sex,sex]; arguments []; default message [sex]]; default message [性别不能为空]
+Field error in object 'user' on field 'age': rejected value [120]; codes [Max.user.age,Max.age,Max.java.lang.Integer,Max]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.age,age]; arguments []; default message [age],100]; default message [年龄必须小于或等于 100]
+Field error in object 'user' on field 'username': rejected value []; codes [NotBlank.user.username,NotBlank.username,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.username,username]; arguments []; default message [username]]; default message [用户名不能为空], 请求类: TestController, 请求方法: test =================================== 
+[TraceId: 42e4df11-287e-4c30-8af8-fc6b7ed7ec1c] 2024-01-25 14:51:13.684 [http-nio-8080-exec-2] INFO  c.luser.weblog.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 88ms, 出参: {"success":false,"message":"邮箱格式不正确, 性别不能为空, 年龄必须小于或等于 100, 用户名不能为空","errorCode":null,"data":null} =================================== 
+[TraceId: ] 2024-01-25 15:04:43.245 [main] INFO  com.luser.weblog.web.WeblogWebApplication - Starting WeblogWebApplication using Java 1.8.0_311 on Emily with PID 22816 (D:\codes\IdeaProjects\weblog-springboot\weblog-web\target\classes started by 29531 in D:\codes\IdeaProjects\weblog-springboot)
+[TraceId: ] 2024-01-25 15:04:43.246 [main] INFO  com.luser.weblog.web.WeblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-01-25 15:04:43.785 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-01-25 15:04:43.790 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-01-25 15:04:43.790 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-01-25 15:04:43.846 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-01-25 15:04:43.846 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 573 ms
+[TraceId: ] 2024-01-25 15:04:44.100 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-01-25 15:04:44.105 [main] INFO  com.luser.weblog.web.WeblogWebApplication - Started WeblogWebApplication in 1.105 seconds (JVM running for 1.753)
+[TraceId: ] 2024-01-25 15:05:39.123 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2024-01-25 15:05:39.123 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2024-01-25 15:05:39.123 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[TraceId: ] 2024-01-25 15:05:39.173 [http-nio-8080-exec-2] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: No content to map due to end-of-input; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input<EOL> at [Source: (PushbackInputStream); line: 1, column: 0]]
+[TraceId: ] 2024-01-25 15:06:41.739 [http-nio-8080-exec-4] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.luser.weblog.common.utils.Response com.luser.weblog.web.controller.TestController.test(com.luser.weblog.web.model.User,org.springframework.validation.BindingResult)]
+[TraceId: ] 2024-01-25 15:06:43.521 [http-nio-8080-exec-6] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.luser.weblog.common.utils.Response com.luser.weblog.web.controller.TestController.test(com.luser.weblog.web.model.User,org.springframework.validation.BindingResult)]
+[TraceId: ] 2024-01-25 15:07:29.213 [main] INFO  com.luser.weblog.web.WeblogWebApplication - Starting WeblogWebApplication using Java 1.8.0_311 on Emily with PID 9024 (D:\codes\IdeaProjects\weblog-springboot\weblog-web\target\classes started by 29531 in D:\codes\IdeaProjects\weblog-springboot)
+[TraceId: ] 2024-01-25 15:07:29.215 [main] INFO  com.luser.weblog.web.WeblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-01-25 15:07:29.728 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-01-25 15:07:29.732 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-01-25 15:07:29.732 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-01-25 15:07:29.792 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-01-25 15:07:29.792 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 551 ms
+[TraceId: ] 2024-01-25 15:07:30.073 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-01-25 15:07:30.078 [main] INFO  com.luser.weblog.web.WeblogWebApplication - Started WeblogWebApplication in 1.104 seconds (JVM running for 1.735)
+[TraceId: ] 2024-01-25 15:14:44.647 [main] INFO  com.luser.weblog.web.WeblogWebApplication - Starting WeblogWebApplication using Java 1.8.0_311 on Emily with PID 6656 (D:\codes\IdeaProjects\weblog-springboot\weblog-web\target\classes started by 29531 in D:\codes\IdeaProjects\weblog-springboot)
+[TraceId: ] 2024-01-25 15:14:44.648 [main] INFO  com.luser.weblog.web.WeblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-01-25 15:14:45.156 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-01-25 15:14:45.161 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-01-25 15:14:45.161 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-01-25 15:14:45.215 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-01-25 15:14:45.215 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 544 ms
+[TraceId: ] 2024-01-25 15:14:45.457 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-01-25 15:14:45.461 [main] INFO  com.luser.weblog.web.WeblogWebApplication - Started WeblogWebApplication in 1.056 seconds (JVM running for 1.653)
+[TraceId: ] 2024-01-25 15:14:52.473 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2024-01-25 15:14:52.474 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2024-01-25 15:14:52.474 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[TraceId: ] 2024-01-25 15:14:52.491 [http-nio-8080-exec-2] ERROR c.l.weblog.common.exception.GlobalExceptionHandler - /test request error, 
+org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.luser.weblog.common.utils.Response com.luser.weblog.web.controller.TestController.test(com.luser.weblog.web.model.User,org.springframework.validation.BindingResult)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:163)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[TraceId: ] 2024-01-25 15:36:56.416 [main] INFO  com.luser.weblog.web.WeblogWebApplication - Starting WeblogWebApplication using Java 1.8.0_311 on Emily with PID 5464 (D:\codes\IdeaProjects\weblog-springboot\weblog-web\target\classes started by 29531 in D:\codes\IdeaProjects\weblog-springboot)
+[TraceId: ] 2024-01-25 15:36:56.417 [main] INFO  com.luser.weblog.web.WeblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-01-25 15:36:56.947 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-01-25 15:36:56.951 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-01-25 15:36:56.952 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-01-25 15:36:57.008 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-01-25 15:36:57.008 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 566 ms
+[TraceId: ] 2024-01-25 15:36:57.263 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-01-25 15:36:57.268 [main] INFO  com.luser.weblog.web.WeblogWebApplication - Started WeblogWebApplication in 1.091 seconds (JVM running for 1.762)
+[TraceId: ] 2024-01-25 15:37:33.472 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2024-01-25 15:37:33.473 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2024-01-25 15:37:33.475 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[TraceId: ] 2024-01-25 15:37:33.530 [http-nio-8080-exec-1] ERROR c.l.weblog.common.exception.GlobalExceptionHandler - /test request error, 
+org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.luser.weblog.common.utils.Response com.luser.weblog.web.controller.TestController.test(com.luser.weblog.web.model.User)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:163)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[TraceId: ] 2024-01-25 15:37:44.620 [main] INFO  com.luser.weblog.web.WeblogWebApplication - Starting WeblogWebApplication using Java 1.8.0_311 on Emily with PID 19820 (D:\codes\IdeaProjects\weblog-springboot\weblog-web\target\classes started by 29531 in D:\codes\IdeaProjects\weblog-springboot)
+[TraceId: ] 2024-01-25 15:37:44.621 [main] INFO  com.luser.weblog.web.WeblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-01-25 15:37:45.174 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-01-25 15:37:45.178 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-01-25 15:37:45.178 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-01-25 15:37:45.235 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-01-25 15:37:45.235 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 591 ms
+[TraceId: ] 2024-01-25 15:37:45.527 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-01-25 15:37:45.531 [main] INFO  com.luser.weblog.web.WeblogWebApplication - Started WeblogWebApplication in 1.174 seconds (JVM running for 1.767)
