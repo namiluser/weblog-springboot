@@ -1,25 +1,75 @@
 后端项目模块介绍
-模块名	说明
-weblog-module-admin	博客后台管理模块
-weblog-module-common	通用模块
-weblog-module-jwt	JWT 认证、授权模块
-weblog-web	博客前台（启动入口）
+
+1. weblog-module-admin
+
+博客后台管理模块，用于管理博客系统的后台功能。
+
+
+2. weblog-module-common
+
+通用模块，包含一些通用的工具类、异常处理、全局配置等。
+
+
+3. weblog-module-jwt
+
+JWT认证、授权模块，用于实现用户身份认证和权限控制。
+
+
+4. weblog-web
+
+博客前台模块，作为博客系统的启动入口，用于展示博客前台页面和处理用户请求。
+
+
 技术栈
+
 后端
-框架	说明	版本号	备注
-JDK	Java 开发工具包	1.8	目前企业项目比较主流的版本
-Spring Boot	Web 应用开发框架	2.6.3	
-Maven	项目构建工具	3.6.3	企业主流的构建工具
-MySQL	数据库	5.7	
-Mybatis Plus	Mybatis 增强版持久层框架	3.5.2	
-HikariCP	数据库连接池	4.0.3	Spring Boot 内置数据库连接池，号称性能最强
-Spring Security	安全框架	2.6.3	
-JWT	Web 应用令牌	0.11.2	
-Lombok	消除冗余的样板式代码	1.8.22	
-Jackson	JSON 工具库	2.13.1	
-Hibernate Validator	参数校验组件	6.2.0.Final	
-Logback	日志组件	1.2.10	
-Guava	Google 开源的工具库	18.0	
-p6spy	动态监测框架	3.9.1	
-Minio	对象存储	8.2.1	用于存储博客中相关图片
-flexmark	Markdown 解析	0.62.2	
+
+框架
+
+
+JDK: 1.8
+
+Spring Boot: 2.6.3
+
+Maven: 3.6.3
+
+
+数据库
+
+
+MySQL: 5.7
+
+Mybatis Plus: 3.5.2
+
+HikariCP: 4.0.3
+
+
+安全
+
+
+Spring Security: 2.6.3
+
+JWT: 0.11.2
+
+
+工具和库
+
+
+Lombok: 1.8.22
+
+Jackson: 2.13.1
+
+Hibernate Validator: 6.2.0.Final
+
+Logback: 1.2.10
+
+Guava: 18.0
+
+p6spy: 3.9.1
+
+Minio: 8.2.1 (用于存储博客中相关图片)
+
+flexmark: 0.62.2 (Markdown解析工具)
+
+
+以上是后端项目的模块介绍和使用的技术栈。各个模块和技术的具体功能和用法可以参考项目中的代码和文档。
